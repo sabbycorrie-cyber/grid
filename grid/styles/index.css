@@ -6,47 +6,61 @@ body {
 
 .grid_container{
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 15px;
-    width: 85%;
-    height: 80%;
-    background-color: aqua;
-    box-shadow: 4px 4px 12px white;
-    padding: 15px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10vh;
+    height: 100vh;
 }
 
-.grid-element{
-    overflow: hidden;
-    position: relative;
+.grid_container div {
+    border-radius: 6px;
 }
 
-.first{
-    grid-row: 1/2;
-    grid-column: 1/span 1;
+.grid_element_first{
+    grid-column: span 2;
     background-color: blueviolet;
 }
 
-.second{
-    grid-row: 2/2;
-    grid-column: 2/span 1;
+.grid_element_second{
+    grid-column: span 2;
+    grid-row: span 2;
     background-color: blue;
 }
 
-.third{
-    grid-row: 1/2;
-    grid-column: 3/span 1;
+.grid_element_third{
+    grid-column: span 2;
     background-color: red;
 }
 
-.forth{
-    grid-row: 2/1;
-    grid-column: 1/span 1;
+.grid_element_fourth{
+    grid-column: span 2;
+    grid-row: span 2;
     background-color: green;
 }
 
-.fifth{
-    grid-row: 3/3;
-    grid-column: 3/span 2;
+.grid_element_fifth{
+    grid-column: span 1;
     background-color: purple;
+}
+
+.grid_element_sixth{
+    grid-column: span 1;
+    background-color: greenyellow;
+}
+
+.grid_element_seventh{
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: aqua;
+}
+
+.grid_element_eight{
+    grid-column: span 2;
+    background-color: aquamarine;
+}
+
+.grid_element_ninth{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: yellow;
 }
