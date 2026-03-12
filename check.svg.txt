@@ -1,4 +1,0 @@
-<svg class="check-svg" width="240" height="240" viewbox="0 0 240 240" fill="none" xmins="http://www.w3.org/2000/svg">
-            <circle cx="110" cy="110" r="100" stroke-width="20" fill="white" stroke="turquoise" />
-            <polyline points="70,120 100, 165 150,80" stroke="turquoise" stroke-width="20" stroke-linecap="round"  stroke-linejoin="round" />
-        </svg>
